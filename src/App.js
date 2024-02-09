@@ -6,12 +6,13 @@ import React, { useState ,useEffect} from 'react';  // useEffect hook for mainta
 import { AddTodo } from './My components/AddTodo';
 
 
+
 function App() {
   
   let initTodo;
   if(localStorage.getItem("todos") === null){ // if the localstorage.getItem == null then it wil
     initTodo = []
-  }
+  }                                                                                                              
   else{
     initTodo = JSON.parse(localStorage.getItem("todos"));
   }

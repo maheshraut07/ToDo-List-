@@ -8,7 +8,7 @@ export const AddTodo = (props) => {
 
 
     const submit = (e) => {
-        e.preventDefault();
+        e.preventDefault();    // it prevents the forms to submit to the backend 
         if(!title || !desc){   //  if title of description of the todo is blank then alert the user 
             alert("Title or Description cannot be blank");
         }   // this will not add the current todos in the main screen

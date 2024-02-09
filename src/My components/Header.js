@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { About } from './About'
 
 
 export default function Header(props) {
@@ -17,7 +18,7 @@ export default function Header(props) {
               <a className="nav-link active" aria-current="page" Link="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" Link="#">About</a>
+              <a className="nav-link" Link="#" href='./About.js' target='_blank' >About</a>
             </li>
            </ul>
           { props.searchBar? <form className="d-flex" role="search">

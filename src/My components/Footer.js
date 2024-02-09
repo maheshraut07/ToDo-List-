@@ -5,7 +5,7 @@ const Footer = () => {
 
   let footerStyle = {
     position : "relative",
-    top :"10vh",
+    top :"33vh",
     width:"100%",
     
   }
